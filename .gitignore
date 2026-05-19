@@ -1,0 +1,71 @@
+# Build output
+build/
+dist/
+out/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.iso
+*.img
+
+# Debug files
+*.map
+*.lst
+*.sym
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# QEMU
+qemu.log
+
+# GDB
+.gdb_history
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Zed
+.zed/
+
+# macOS
+.DS_Store
+
+# Linux
+*.cache
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ELF dumps
+*.dump
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.prof
+
+# Dependency files
+*.d
+
+# Generated boot artifacts
+bootloader.bin
+kernel.bin
+os-image.iso
+
+# GRUB generated files
+isofiles/
