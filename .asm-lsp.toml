@@ -6,5 +6,5 @@ instruction_set = "x86"
 [default_config.opts]
 compiler = "nasm"
 compile_flags_txt = []
-diagnostics = true
-default_diagnostics = true
+diagnostics = false
+default_diagnostics = false
