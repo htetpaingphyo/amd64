@@ -10,9 +10,12 @@ This project demonstrates how to boot directly on hardware (or emulators) withou
 
 - Pure AMD64 assembly
 - No operating system dependency
-- Long mode (64-bit mode) initialization
+- Own stack space initialization
+- Real mode (16-bit mode) initialization
+- Protected mode (32-bit mode) shifting 
+- Long mode (64-bit mode) running
 - Direct hardware interaction
 - ELF kernel generation
 - Bootable disk image creation
 - QEMU support for testing
-- NASM + LD based toolchain
+- NASM, GAS + GNU-LD based toolchain
